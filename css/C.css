@@ -1,0 +1,130 @@
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-color: black;
+        color: white;
+        
+    }
+    header{
+        background: #2193b0;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        color:white;
+        font-size: 50px;
+        text-align: center;
+        border-radius: 1px;
+        padding: 20px; 
+          
+        
+    }
+  
+   .topnav{
+       background-color: #333;
+       overflow: hidden;
+       
+
+   }
+   .tpnav img{
+       height: 40px;
+       width: 40px;
+       margin-top: 3px;
+       display: none;
+   }
+  
+   .topnav a{
+       float: left;
+       color:#f2f2f2;
+       text-align: center;
+       padding: 14px 16px;
+       text-decoration: none;
+       font-size: 17px;
+   }
+   .topnav a:hover{
+       background-color: #ddd;
+       color: black;
+
+   }
+  
+      section{
+          text-align: center;
+          margin-top: 30px;
+          margin-bottom: 50px;
+          
+      }
+        section h2 span{
+
+            background: linear-gradient(90deg , rgb(109, 101, 219) 0% , rgb(205, 174, 206) 28%) , rgb(204, 206, 100) 100%;
+            color: beige;
+            padding: 10px;
+           border-radius: 20vh;
+           box-shadow: 0px 6px 10px 2px rgba(231, 231, 228, 0.5); 
+        }
+        .video{
+            border: 2px solid rgb(184, 189, 176);
+            margin: 50px 30px 30px 30px;
+            box-shadow: 0 0 50px rgba(231, 231, 228, 0.5); 
+           
+            
+        }
+        .video iframe{
+            margin: 20px 10px;
+            /* padding: 5px 5px; */
+            border: 2px solid white;
+              
+        }
+        marquee{
+            font-size: 20px;
+            background-color: #333;
+            color: #cc9ad6;
+            border: 1px solid #333;
+            border-radius: 10px;
+           
+        }
+        
+        .video marquee{
+            font-size: 25px;
+            margin: 0;
+            background:none;
+            color: #ddd;
+            box-shadow: 0 6px 10px 2px rgba(231, 231, 228, 0.5);
+        }
+          /* making page responsive */
+
+          @media  screen and  (max-width:767px)
+        {
+
+            .tpnav img{
+                height: 40px;
+                width: 40px;
+                float: right;
+                display: block;
+                background-color: #333;
+                margin-right: 14px;
+                border-radius: 10vh;
+            }
+
+            .topnav a{
+                display: block;
+            }
+
+            #menu{
+                display: none;
+            }
+           
+            .video iframe{
+            margin: 20px 10px;
+            border: 2px solid white;
+            box-shadow: 0 6px 10px 2px rgba(231, 231, 228, 0.5);  ;
+        }
+        iframe{
+            width: 250px;
+            height: 200px;
+        }
+            /* response code will be written here. */
+
+        }
+     
+

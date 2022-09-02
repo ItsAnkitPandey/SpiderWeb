@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="favIcon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favIcon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favIcon/favicon-16x16.png">
+    <link rel="manifest" href="favIcon/site.webmanifest">
+    <link rel="stylesheet" href="css/contact.css">
+    <title>Contact Us</title>
+</head>
+
+<body>
+    <marquee behavior="alternate" direction="right" scrolldelay="200"> This site is created by Ankit Pandey</marquee>
+    <header>SpiderWeb</header>
+   
+   <div class="tpnav">
+        <div class="topnav" id="menu">
+            
+          <a href="index.html" class="active">Home</a>
+          <a href="#" class="active">Project</a>
+          <a href="contact_us.html" class="active">Contact Us</a>
+           <a href="about.html" class="active">About</a>
+           <a href="age.html" target="blank" class="age">Age Calculator</a>
+       </div>
+
+      <img src="assets/side.png" alt="" onclick="myFunction()">
+    </div>
+
+    <div class="contact">
+        <h1>Contact Us!!</h1>
+        <p>Hey students if you have any doubt or any query, You can Call me or Email me.</p>
+    </div>
+    <div id="contact">
+        <a href="tel:+916391735294">Call Me!</a>
+        <a href="mailto:ankitpandey.272003@gmail.com?subject=you&#*27;ve%20got%20mail.">Email Me!</a>
+    </div>
+
+    <script>
+        
+        function myFunction(){
+           var x = document.getElementById("menu");
+
+           if(x.style.display == "block")
+           {
+               x.style.display = "none";
+            
+           }
+           else{
+               x.style.display = "block";
+           }
+          
+        }
+    </script>
+
+</body>
+</html>

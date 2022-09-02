@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="favIcon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favIcon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favIcon/favicon-16x16.png">
+    <link rel="manifest" href="favIcon/site.webmanifest">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/about.css">
+    <title>About me!</title>
+    
+</head>
+<body>
+    <header>SpiderWeb</header>
+  
+    <div class="tpnav">
+        <div class="topnav" id="menu">     
+             <a href="index.html" class="active" > Home </a>
+             <a href="#" class="active" > Project </a>
+             <a href="contact_us.html" class="active" > Contact Us </a>
+             <a href="#" class="active"> About </a>
+             <a href="age.html" target="blank" class="active"> Age Calculator </a>
+        </div>
+
+              <img src="assets/side.png" alt=""  onclick="myFunction()">
+    
+    </div>
+   
+    <div class="about">
+        <h2><span>About Me!!</span></h2>
+           
+                <div class="profile">
+                    <img src="assets/profile2.jpg" alt="ankit">
+                </div>
+                                   
+              <h3>Ankit Pandey</h3>
+
+                    <div class="social">
+                        <a href="https://www.youtube.com/acreations11" rel="noopener-noreferer" class="youtube"><i class="fa fa-youtube" aria-hidden="true"></i>YouTube</a>&nbsp; &nbsp; &nbsp;
+                        <a href="https://www.facebook.com/pandeyankit2001" rel="noopener-noreferer" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i>Facebook</a>&nbsp; &nbsp; &nbsp;
+                        <a href="https://www.instagram.com/_iankitpandit_" rel="noopener-noreferer" class="instagram"><i class="fa fa-instagram" aria-hidden="true"></i>Instagram</a>&nbsp; &nbsp; &nbsp;
+                    </div>
+                    <p>My self <em>Ankit Pandey</em>. I am a 2nd year student of  <em> B.C.A.</em>(Bachelor in Computer Application). I studies in Deen Dayal Upadhyaya Gorakhpur University(DDUGU).
+                        I am also a Frontend developer. <br> This is my first project which objective is to help students who interested in Web Developement. This project helps student to choose the best suitable tutorial on YouTube. <br>
+                       </p>
+
+    </div>
+
+    <script>
+        
+        function myFunction(){
+           var x = document.getElementById("menu");
+
+           if(x.style.display == "block")
+           {
+               x.style.display = "none";
+            
+           }
+           else{
+               x.style.display = "block";
+           }
+          
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="favIcon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favIcon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favIcon/favicon-16x16.png">
+    <link rel="manifest" href="favIcon/site.webmanifest">
+    <link rel="stylesheet" href="css/web-development.css">
+    <title>Web Developement</title>
+  
+</head>
+<body>
+    <header>SpiderWeb </header>
+   
+   <div class="tpnav">
+    <div class="topnav" id="menu">
+      
+        <a href="index.html" class="active">Home</a>
+        <a href="#" class="active">Project</a>
+        <a href="contact_us.html" class="active">Contact Us</a>
+        <a href="about.html" class="active">About</a>
+        <a href="age.html" target="blank">Age Calculator</a>
+    </div>
+
+        <img src="assets/side.png" alt=""  onclick="myFunction()"><br>
+
+    </div>
+    <h2>Web Developement</h2>
+    <div class="container">
+        <div class="card">
+            <img src="assets/Front-End.png" alt="Frontend developement" >
+            <div class="web">
+                <h3>Frontend </h3>
+                <p> Free Resoures available here.</p>
+                <a href="frontend.html">Open</a>
+            </div>
+        </div>
+       
+         <div class="card">
+            <img src="assets/backend.jpg" alt="Backend Developement" >
+            <div class="web">
+                <h3>Backend </h3>
+                <p> Open and get free resourses</p>
+                <a href="backend.html">Open</a>
+            </div>
+        </div>
+      </div>
+
+      <footer>
+        <marquee behavior="alternate" direction="right" scrolldelay="120">This website is created by Ankit Pandey</marquee>
+    </footer>
+    <script>
+        
+        function myFunction(){
+           var x = document.getElementById("menu");
+
+           if(x.style.display == "block")
+           {
+               x.style.display = "none";
+            
+           }
+           else{
+               x.style.display = "block";
+           }
+          
+        }
+    </script>
+    </body>
+    </html>

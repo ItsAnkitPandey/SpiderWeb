@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="favIcon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favIcon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favIcon/favicon-16x16.png">
+    <link rel="manifest" href="favIcon/site.webmanifest">
+    <link rel="stylesheet" href="css/c_plus++.css">
+    <title>C/C++ Tutorials</title>
+   
+</head>
+<body>
+    <header>SpiderWeb</header>
+  
+    <div class="tpnav">
+        <div class="topnav" id="menu">
+             <a href="index.html" class="active" > Home </a>
+             <a href="#" class="active" > Project </a>
+             <a href="contact_us.html" class="active" > Contact Us </a>
+             <a href="about.html" class="active"> About </a>
+             <a href="age.html" target="blank" class="active"> Age Calculator </a>
+        </div>
+
+      <img src="assets/side.png" alt=""  onclick="myFunction()">
+
+    </div>
+    <div class="container">
+        <div class="card">
+            <img src="assets/c.png" alt="C language" >
+            <div class="web">
+                <h3> C </h3>
+                <p> Free Resoures available here.</p>
+                <a href="C.html">Open</a>
+            </div>
+        </div>
+       
+         <div class="card">
+            <img src="assets/c++.png" alt="c++" >
+            <div class="web">
+                <h3> C++ </h3>
+                <p> Open and get free resourses</p>
+                <a href="c++.html">Open</a>
+            </div>
+        </div>
+      </div>
+      <footer>
+        <marquee behavior="alternate" direction="right" scrolldelay="120">This website is created by Ankit Pandey</marquee>
+    </footer>
+      <script>
+        
+        function myFunction(){
+           var x = document.getElementById("menu");
+
+           if(x.style.display == "block")
+           {
+               x.style.display = "none";
+            
+           }
+           else{
+               x.style.display = "block";
+           }
+          
+        }
+    </script>
+</body>
+</html>
